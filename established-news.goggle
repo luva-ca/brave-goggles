@@ -21,135 +21,135 @@
 ! - Common social/content aggregators excluded below to reduce noise.
 ! -----------------------------------------------------------------------------
 ! Weight Legend:
-! Tier 1 (weight=2.0)  - High national/international stature
-! Tier 2 (weight=1.35) - Major national or strong regional influence
-! Tier 3 (weight=1.1)  - Notable regional / specialized reputable outlets
+! Tier 1 (weight=5)  - High national/international stature
+! Tier 2 (weight=3) - Major national or strong regional influence
+! Tier 3 (weight=2)  - Notable regional / specialized reputable outlets
 ! (Baseline relevance from Brave still applies; weights are gentle multipliers.)
 ! -----------------------------------------------------------------------------
 ! Notes:
 ! -----------------------------------------------------------------------------
 
 ! COUNTRY: Canada
-! Tier 1 (2.0)
-$boost=2.0,site=cbc.ca
-$boost=2.0,site=ctv.ca
-$boost=2.0,site=globalnews.ca
-$boost=2.0,site=theglobeandmail.com
-$boost=2.0,site=canada.ca
-$boost=2.0,site=fintrac-canafe.gc.ca
-$boost=2.0,site=osfi-bsif.gc.ca
+! Tier 1 (5)
+$boost=5,site=cbc.ca
+$boost=5,site=ctv.ca
+$boost=5,site=globalnews.ca
+$boost=5,site=theglobeandmail.com
+$boost=5,site=canada.ca
+$boost=5,site=fintrac-canafe.gc.ca
+$boost=5,site=osfi-bsif.gc.ca
 
-! Tier 2 (1.35)
-$boost=1.35,site=calgaryherald.com
-$boost=1.35,site=edmontonjournal.com
-$boost=1.35,site=lapresse.ca
-$boost=1.35,site=ledevoir.com
-$boost=1.35,site=montrealgazette.com
-$boost=1.35,site=nationalpost.com
-$boost=1.35,site=ottawacitizen.com
-$boost=1.35,site=thestar.com
-$boost=1.35,site=vancouversun.com
-$boost=1.35,site=bnnbloomberg.ca
+! Tier 2 (3)
+$boost=3,site=calgaryherald.com
+$boost=3,site=edmontonjournal.com
+$boost=3,site=lapresse.ca
+$boost=3,site=ledevoir.com
+$boost=3,site=montrealgazette.com
+$boost=3,site=nationalpost.com
+$boost=3,site=ottawacitizen.com
+$boost=3,site=thestar.com
+$boost=3,site=vancouversun.com
+$boost=3,site=bnnbloomberg.ca
 
-! Tier 3 (1.1)
-$boost=1.1,site=thetyee.ca
-$boost=1.1,site=winnipegfreepress.com
+! Tier 3 (2)
+$boost=2,site=thetyee.ca
+$boost=2,site=winnipegfreepress.com
 
 ! COUNTRY: United States
-! Tier 1 (2.0)
-$boost=2.0,site=abcnews.go.com
-$boost=2.0,site=apnews.com
-$boost=2.0,site=bloomberg.com
-$boost=2.0,site=cbsnews.com
-$boost=2.0,site=cnn.com
-$boost=2.0,site=foxnews.com
-$boost=2.0,site=nbcnews.com
-$boost=2.0,site=npr.org
-$boost=2.0,site=nytimes.com
-$boost=2.0,site=reuters.com
-$boost=2.0,site=usatoday.com
-$boost=2.0,site=washingtonpost.com
-$boost=2.0,site=wsj.com
-$boost=2.0,site=justice.gov
-$boost=2.0,site=sec.gov
+! Tier 1 (5)
+$boost=5,site=abcnews.go.com
+$boost=5,site=apnews.com
+$boost=5,site=bloomberg.com
+$boost=5,site=cbsnews.com
+$boost=5,site=cnn.com
+$boost=5,site=foxnews.com
+$boost=5,site=nbcnews.com
+$boost=5,site=npr.org
+$boost=5,site=nytimes.com
+$boost=5,site=reuters.com
+$boost=5,site=usatoday.com
+$boost=5,site=washingtonpost.com
+$boost=5,site=wsj.com
+$boost=5,site=justice.gov
+$boost=5,site=sec.gov
 
-! Tier 2 (1.35)
-$boost=1.35,site=axios.com
-$boost=1.35,site=bostonglobe.com
-$boost=1.35,site=chicagotribune.com
-$boost=1.35,site=latimes.com
-$boost=1.35,site=msnbc.com
-$boost=1.35,site=newsweek.com
-$boost=1.35,site=nypost.com
-$boost=1.35,site=politico.com
-$boost=1.35,site=sfchronicle.com
-$boost=1.35,site=theatlantic.com
-$boost=1.35,site=thehill.com
-$boost=1.35,site=time.com
-! Tier 3 (1.1)
-$boost=1.1,site=ajc.com
-$boost=1.1,site=chron.com
-$boost=1.1,site=dallasnews.com
-$boost=1.1,site=denverpost.com
-$boost=1.1,site=miamiherald.com
-$boost=1.1,site=philly.com
-$boost=1.1,site=seattletimes.com
-$boost=1.1,site=star-telegram.com
+! Tier 2 (3)
+$boost=3,site=axios.com
+$boost=3,site=bostonglobe.com
+$boost=3,site=chicagotribune.com
+$boost=3,site=latimes.com
+$boost=3,site=msnbc.com
+$boost=3,site=newsweek.com
+$boost=3,site=nypost.com
+$boost=3,site=politico.com
+$boost=3,site=sfchronicle.com
+$boost=3,site=theatlantic.com
+$boost=3,site=thehill.com
+$boost=3,site=time.com
+! Tier 3 (2)
+$boost=2,site=ajc.com
+$boost=2,site=chron.com
+$boost=2,site=dallasnews.com
+$boost=2,site=denverpost.com
+$boost=2,site=miamiherald.com
+$boost=2,site=philly.com
+$boost=2,site=seattletimes.com
+$boost=2,site=star-telegram.com
 
 
 ! COUNTRY: United Kingdom
-! Tier 1 (2.0)
-$boost=2.0,site=bbc.co.uk
-$boost=2.0,site=bbc.com
-$boost=2.0,site=dailymail.co.uk
-$boost=2.0,site=independent.co.uk
-$boost=2.0,site=sky.com
-$boost=2.0,site=standard.co.uk
-$boost=2.0,site=telegraph.co.uk
-$boost=2.0,site=theguardian.com
-$boost=2.0,site=thetimes.co.uk
-$boost=2.0,site=fca.org.uk
+! Tier 1 (5)
+$boost=5,site=bbc.co.uk
+$boost=5,site=bbc.com
+$boost=5,site=dailymail.co.uk
+$boost=5,site=independent.co.uk
+$boost=5,site=sky.com
+$boost=5,site=standard.co.uk
+$boost=5,site=telegraph.co.uk
+$boost=5,site=theguardian.com
+$boost=5,site=thetimes.co.uk
+$boost=5,site=fca.org.uk
 
-! Tier 2 (1.35)
-$boost=1.35,site=channel4.com
-$boost=1.35,site=express.co.uk
-$boost=1.35,site=ft.com
-$boost=1.35,site=itv.com
-$boost=1.35,site=metro.co.uk
-$boost=1.35,site=mirror.co.uk
-$boost=1.35,site=thesun.co.uk
-! Tier 3 (1.1)
-$boost=1.1,site=belfasttelegraph.co.uk
-$boost=1.1,site=heraldscotland.com
-$boost=1.1,site=liverpoolecho.co.uk
-$boost=1.1,site=manchestereveningnews.co.uk
-$boost=1.1,site=scotsman.com
-$boost=1.1,site=walesonline.co.uk
+! Tier 2 (3)
+$boost=3,site=channel4.com
+$boost=3,site=express.co.uk
+$boost=3,site=ft.com
+$boost=3,site=itv.com
+$boost=3,site=metro.co.uk
+$boost=3,site=mirror.co.uk
+$boost=3,site=thesun.co.uk
+! Tier 3 (2)
+$boost=2,site=belfasttelegraph.co.uk
+$boost=2,site=heraldscotland.com
+$boost=2,site=liverpoolecho.co.uk
+$boost=2,site=manchestereveningnews.co.uk
+$boost=2,site=scotsman.com
+$boost=2,site=walesonline.co.uk
 
 ! COUNTRY: Australia
-! Tier 1 (2.0)
-$boost=2.0,site=7news.com.au
-$boost=2.0,site=9news.com.au
-$boost=2.0,site=abc.net.au
-$boost=2.0,site=news.com.au
-$boost=2.0,site=smh.com.au
-$boost=2.0,site=theaustralian.com.au
-$boost=2.0,site=theage.com.au
+! Tier 1 (5)
+$boost=5,site=7news.com.au
+$boost=5,site=9news.com.au
+$boost=5,site=abc.net.au
+$boost=5,site=news.com.au
+$boost=5,site=smh.com.au
+$boost=5,site=theaustralian.com.au
+$boost=5,site=theage.com.au
 ! theguardian.com AU edition covered by existing guardian rule
-! Tier 2 (1.35)
-$boost=1.35,site=10news.com.au
-$boost=1.35,site=afr.com
-$boost=1.35,site=couriermail.com.au
-$boost=1.35,site=dailytelegraph.com.au
-$boost=1.35,site=heraldsun.com.au
-$boost=1.35,site=sbs.com.au
-! Tier 3 (1.1)
-$boost=1.1,site=adelaidenow.com.au
-$boost=1.1,site=canberratimes.com.au
-$boost=1.1,site=crikey.com.au
-$boost=1.1,site=ntnews.com.au
-$boost=1.1,site=perthnow.com.au
-$boost=1.1,site=thewest.com.au
+! Tier 2 (3)
+$boost=3,site=10news.com.au
+$boost=3,site=afr.com
+$boost=3,site=couriermail.com.au
+$boost=3,site=dailytelegraph.com.au
+$boost=3,site=heraldsun.com.au
+$boost=3,site=sbs.com.au
+! Tier 3 (2)
+$boost=2,site=adelaidenow.com.au
+$boost=2,site=canberratimes.com.au
+$boost=2,site=crikey.com.au
+$boost=2,site=ntnews.com.au
+$boost=2,site=perthnow.com.au
+$boost=2,site=thewest.com.au
 
 ! Discarded
 $discard,site=reddit.com
