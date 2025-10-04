@@ -1,0 +1,165 @@
+name: Established News
+description: Gentle weighting toward established national and regional news outlets across CA, US, UK, AU; Tier1 > Tier2 > Tier3.
+public: false
+author: luva
+
+# -----------------------------------------------------------------------------
+# Established News (Tiered Boost) Goggle
+# -----------------------------------------------------------------------------
+# Goal: Provide a modest relevance lift for established, accountable newsrooms
+# while preserving organic ranking signals. Emphasis is on original reporting,
+# editorial oversight, and broad regional/national significance.
+# -----------------------------------------------------------------------------
+# Inclusion Criteria:
+# 1. Primary news organizations producing original reporting (not pure aggregators)
+# 2. Recognized national or significant regional editorial footprint
+# 3. Demonstrated accountability / fact‑checking reputation
+# 4. Not primarily a clickbait farm, thin affiliate, extremist propaganda, or single‑issue PAC site
+# 5. English-language (initial scope) – future versions may extend
+# -----------------------------------------------------------------------------
+# Exclusions:
+# - Common social/content aggregators excluded below to reduce noise.
+# -----------------------------------------------------------------------------
+# Disclaimer: Prioritizing established outlets can under-represent newer or niche
+# investigative sources. Future revisions may add an Emerging / Independent tier.
+# -----------------------------------------------------------------------------
+# Weight Legend:
+# Tier 1 (weight=2.0)  - High national/international stature
+# Tier 2 (weight=1.35) - Major national or strong regional influence
+# Tier 3 (weight=1.1)  - Notable regional / specialized reputable outlets
+# (Baseline relevance from Brave still applies; weights are gentle multipliers.)
+# -----------------------------------------------------------------------------
+# Notes:
+# - One rule per root domain unless subdomain is clearly distinct editorially.
+# - theguardian.com appears once (UK Tier 1) and implicitly covers its AU edition.
+# -----------------------------------------------------------------------------
+
+# COUNTRY: Canada
+# Tier 1 (2.0)
+$boost=2.0,site=cbc.ca
+$boost=2.0,site=ctv.ca
+$boost=2.0,site=globalnews.ca
+$boost=2.0,site=theglobeandmail.com
+$boost=2.0,site=canada.ca
+$boost=2.0,site=fintrac-canafe.gc.ca
+$boost=2.0,site=osfi-bsif.gc.ca
+
+# Tier 2 (1.35)
+$boost=1.35,site=calgaryherald.com
+$boost=1.35,site=edmontonjournal.com
+$boost=1.35,site=lapresse.ca
+$boost=1.35,site=ledevoir.com
+$boost=1.35,site=montrealgazette.com
+$boost=1.35,site=nationalpost.com
+$boost=1.35,site=ottawacitizen.com
+$boost=1.35,site=thestar.com
+$boost=1.35,site=vancouversun.com
+$boost=1.35,site=bnnbloomberg.ca
+
+# Tier 3 (1.1)
+$boost=1.1,site=thetyee.ca
+$boost=1.1,site=winnipegfreepress.com
+
+# COUNTRY: United States
+# Tier 1 (2.0)
+$boost=2.0,site=abcnews.go.com
+$boost=2.0,site=apnews.com
+$boost=2.0,site=bloomberg.com
+$boost=2.0,site=cbsnews.com
+$boost=2.0,site=cnn.com
+$boost=2.0,site=foxnews.com
+$boost=2.0,site=nbcnews.com
+$boost=2.0,site=npr.org
+$boost=2.0,site=nytimes.com
+$boost=2.0,site=reuters.com
+$boost=2.0,site=usatoday.com
+$boost=2.0,site=washingtonpost.com
+$boost=2.0,site=wsj.com
+$boost=2.0,site=justice.gov
+$boost=2.0,site=sec.gov
+
+# Tier 2 (1.35)
+$boost=1.35,site=axios.com
+$boost=1.35,site=bostonglobe.com
+$boost=1.35,site=chicagotribune.com
+$boost=1.35,site=latimes.com
+$boost=1.35,site=msnbc.com
+$boost=1.35,site=newsweek.com
+$boost=1.35,site=nypost.com
+$boost=1.35,site=politico.com
+$boost=1.35,site=sfchronicle.com
+$boost=1.35,site=theatlantic.com
+$boost=1.35,site=thehill.com
+$boost=1.35,site=time.com
+# Tier 3 (1.1)
+$boost=1.1,site=ajc.com
+$boost=1.1,site=chron.com
+$boost=1.1,site=dallasnews.com
+$boost=1.1,site=denverpost.com
+$boost=1.1,site=miamiherald.com
+$boost=1.1,site=philly.com
+$boost=1.1,site=seattletimes.com
+$boost=1.1,site=star-telegram.com
+
+
+# COUNTRY: United Kingdom
+# Tier 1 (2.0)
+$boost=2.0,site=bbc.co.uk
+$boost=2.0,site=bbc.com
+$boost=2.0,site=dailymail.co.uk
+$boost=2.0,site=independent.co.uk
+$boost=2.0,site=sky.com
+$boost=2.0,site=standard.co.uk
+$boost=2.0,site=telegraph.co.uk
+$boost=2.0,site=theguardian.com
+$boost=2.0,site=thetimes.co.uk
+$boost=2.0,site=fca.org.uk
+
+# Tier 2 (1.35)
+$boost=1.35,site=channel4.com
+$boost=1.35,site=express.co.uk
+$boost=1.35,site=ft.com
+$boost=1.35,site=itv.com
+$boost=1.35,site=metro.co.uk
+$boost=1.35,site=mirror.co.uk
+$boost=1.35,site=thesun.co.uk
+# Tier 3 (1.1)
+$boost=1.1,site=belfasttelegraph.co.uk
+$boost=1.1,site=heraldscotland.com
+$boost=1.1,site=liverpoolecho.co.uk
+$boost=1.1,site=manchestereveningnews.co.uk
+$boost=1.1,site=scotsman.com
+$boost=1.1,site=walesonline.co.uk
+
+# COUNTRY: Australia
+# Tier 1 (2.0)
+$boost=2.0,site=7news.com.au
+$boost=2.0,site=9news.com.au
+$boost=2.0,site=abc.net.au
+$boost=2.0,site=news.com.au
+$boost=2.0,site=smh.com.au
+$boost=2.0,site=theaustralian.com.au
+$boost=2.0,site=theage.com.au
+# theguardian.com AU edition covered by existing guardian rule
+# Tier 2 (1.35)
+$boost=1.35,site=10news.com.au
+$boost=1.35,site=afr.com
+$boost=1.35,site=couriermail.com.au
+$boost=1.35,site=dailytelegraph.com.au
+$boost=1.35,site=heraldsun.com.au
+$boost=1.35,site=sbs.com.au
+# Tier 3 (1.1)
+$boost=1.1,site=adelaidenow.com.au
+$boost=1.1,site=canberratimes.com.au
+$boost=1.1,site=crikey.com.au
+$boost=1.1,site=ntnews.com.au
+$boost=1.1,site=perthnow.com.au
+$boost=1.1,site=thewest.com.au
+
+# Discarded
+$discard,site=reddit.com
+$discard,site=twitter.com
+$discard,site=facebook.com
+$discard,site=wikipedia.org
+$discard,site=medium.com
+$discard,site=substack.com
