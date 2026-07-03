@@ -38,6 +38,7 @@ $boost=3,site=theglobeandmail.com
 $boost=3,site=canada.ca
 $boost=3,site=fintrac-canafe.gc.ca
 $boost=3,site=osfi-bsif.gc.ca
+$boost=3,site=rcmp.ca
 
 ! Tier 2 (2)
 $boost=2,site=calgaryherald.com
